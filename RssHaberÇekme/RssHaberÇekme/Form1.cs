@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,8 +20,9 @@ namespace RssHaberÇekme
 
         private void btnanadoluajansı_Click(object sender, EventArgs e)
         {
+            
             listBox1.Items.Clear();
-            XmlTextReader xmlOku = new XmlTextReader("https://www.aa.com.tr/tr/teyithatti/rss/news?cat=aktuel");
+            XmlTextReader xmlOku = GetXmlReader("https://www.aa.com.tr/tr/teyithatti/rss/news?cat=aktuel");
             while (xmlOku.Read())
             {
                 if(xmlOku.Name =="title")
@@ -32,13 +33,22 @@ namespace RssHaberÇekme
 
 
 
+            //html agility pack
         }
+
+        public XmlTextReader GetXmlReader(string xml)
+        {
+            
+            XmlTextReader xmlReader = new XmlTextReader(xml);
+            return xmlReader;
+        }
+
 
         private void btnahaber_Click(object sender, EventArgs e)
         {
             //https://www.ahaber.com.tr/rss/anasayfa.xml
             listBox1.Items.Clear();
-            XmlTextReader xmlOku = new XmlTextReader("https://www.ahaber.com.tr/rss/anasayfa.xml");
+            XmlTextReader xmlOku = GetXmlReader("https://www.ahaber.com.tr/rss/anasayfa.xml");
             while (xmlOku.Read())
             {
                 if (xmlOku.Name == "title")
@@ -54,7 +64,8 @@ namespace RssHaberÇekme
         {
             //http://spor.mynet.com/rss
             listBox1.Items.Clear();
-            XmlTextReader xmlOku = new XmlTextReader("http://spor.mynet.com/rss");
+            XmlTextReader xmlOku = GetXmlReader ("http://spor.mynet.com/rss");
+
             while (xmlOku.Read())
             {
                 if (xmlOku.Name == "title")
