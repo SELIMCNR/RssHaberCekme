@@ -1,0 +1,10 @@
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\bin\Debug\RssHaberÇekme.exe.config
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\bin\Debug\RssHaberÇekme.exe
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\bin\Debug\RssHaberÇekme.pdb
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.csproj.AssemblyReference.cache
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.Form1.resources
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.Properties.Resources.resources
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.csproj.GenerateResource.cache
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.csproj.CoreCompileInputs.cache
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.exe
+C:\Users\btk02\source\repos\RssHaberÇekme\RssHaberÇekme\obj\Debug\RssHaberÇekme.pdb
